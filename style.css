@@ -1,0 +1,265 @@
+body{
+    font-family: Red Hat Display;
+    font-size: 16px;
+    background-image: url(/images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: hsl(225, 100%, 94%) ;
+    text-align: center;
+    font-weight: 500;
+}
+
+.attribution { font-size: 11px; text-align: center; }
+
+.attribution a { color: hsl(228, 45%, 44%); }
+
+@media screen and (max-width:424px) {
+    
+
+
+.containerOrderSummary{
+    width: 95%;
+    margin: 40px auto;
+    border-radius: 20px;
+    background-color: hsl(225, 100%, 98%);
+
+}
+
+section h1{
+   font-weight: 900;
+    margin-bottom: 10px;
+}
+
+section p{
+    color: hsl(228, 3%, 62%);
+    margin-top: 0px;
+    font-size: medium;
+    font-weight: 500;
+    padding: 1px 35px;
+    line-height: 140%;
+
+}
+
+.orderSummaryImage{
+    background-image: url(/images/illustration-hero.svg);
+    background-size: cover;
+    height: 170px;
+    border-top-right-radius: 15px ;
+    border-top-left-radius: 15px;
+    background-repeat: no-repeat;
+   
+}
+
+aside{
+    height: 70px;
+    background-color:  hsl(227, 100%, 98%);
+    margin: 1px 20px;
+   position: relative;
+}
+
+aside img,aside p, aside a{
+    position: absolute;
+}
+
+aside p{
+    font-weight: 900;
+    top:3px;
+    left:90px;
+
+}
+span{
+    color: hsl(228, 3%, 62%);
+    font-weight: 500;
+
+}
+
+
+
+aside img{
+   top:13px;
+   left:14px;
+  
+}
+
+aside a{
+    top:25px;
+   left:210px;
+   font-size: smaller;
+   font-weight:700 ;
+}
+
+aside a:hover{
+    text-decoration: none;
+    color: hsl(224, 73%, 63%);
+}
+
+.button{
+    margin-bottom: 20px;
+   
+
+}
+
+
+.button a{
+    border-radius: 15px;
+    display: block;
+    text-decoration: none;
+   
+    padding: 15px;
+    margin: 30px 20px;
+    font-weight: 900;
+  
+}
+ 
+.button a:first-child{
+    background-color: blue;
+    color: hsl(225, 100%, 98%);
+    margin-bottom: 10px;
+}
+
+.button a:last-child{
+    margin-top: 0px;
+    color:hsl(231, 3%, 56%);
+    
+}
+
+.button a:first-child:hover{
+    cursor: pointer;
+    background-color: hsl(224, 23%, 55%);
+}
+
+.button a:last-child:hover{
+    cursor: pointer;
+    color: black;
+}
+
+}
+
+
+
+@media screen and (min-width:425px) {
+
+    .containerOrderSummary{
+        max-width: 350px;
+        margin: 40px auto;
+        border-radius: 20px;
+        background-color: hsl(225, 100%, 98%);
+    
+    }
+    
+    section h1{
+       font-weight: 900;
+        margin-bottom: 10px;
+    }
+    
+    section p{
+        color: hsl(228, 3%, 62%);
+        margin-top: 0px;
+        font-size: medium;
+        font-weight: 500;
+        padding: 1px 35px;
+        line-height: 140%;
+    
+    }
+    
+    .orderSummaryImage{
+        background-image: url(/images/illustration-hero.svg);
+        background-size: cover;
+        height: 170px;
+        border-top-right-radius: 15px ;
+        border-top-left-radius: 15px;
+        background-repeat: no-repeat;
+       
+    }
+    
+    aside{
+        height: 70px;
+        background-color:  hsl(227, 100%, 98%);
+        margin: 1px 20px;
+       position: relative;
+    }
+    
+    aside img,aside p, aside a{
+        position: absolute;
+    }
+    
+    aside p{
+        font-weight: 900;
+        top:3px;
+        left:90px;
+    
+    }
+    span{
+        color: hsl(228, 3%, 62%);
+        font-weight: 500;
+    
+    }
+    
+    
+    
+    aside img{
+       top:13px;
+       left:14px;
+      
+    }
+    
+    aside a{
+        top:25px;
+       left:210px;
+       font-size: smaller;
+       font-weight:700 ;
+    }
+    
+    aside a:hover{
+        text-decoration: none;
+        color: hsl(224, 73%, 63%);
+    }
+    
+    .button{
+        margin-bottom: 20px;
+       
+    
+    }
+    
+    
+    .button a{
+        border-radius: 15px;
+        display: block;
+        text-decoration: none;
+       
+        padding: 15px;
+        margin: 30px 20px;
+        font-weight: 900;
+      
+    }
+     
+    .button a:first-child{
+        background-color: blue;
+        color: hsl(225, 100%, 98%);
+        margin-bottom: 10px;
+    }
+    
+    .button a:last-child{
+        margin-top: 0px;
+        color:hsl(231, 3%, 56%);
+        
+    }
+    
+    .button a:first-child:hover{
+        cursor: pointer;
+        background-color: hsl(224, 23%, 55%);
+    }
+    
+    .button a:last-child:hover{
+        cursor: pointer;
+        color: black;
+    }
+
+    
+} 
+
+
+
+
+
+
